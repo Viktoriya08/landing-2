@@ -1,0 +1,11 @@
+.main-title{
+    background-color: #387EF9;
+    margin-top: 65px;
+    padding: 30px 0;
+}
+@media (min-width: 1190px) {
+    .main-title{
+        padding: 90px 0;
+        margin-top: 105px;
+    }
+}

@@ -1,0 +1,41 @@
+.block-bnt{
+    width: 135px;
+    align-self: flex-start;
+    &--width{
+        width: 100%;
+    }
+}
+.block-bnt button{
+    background-color: #387EF9;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.block-bnt button:hover{
+    background-color: #2d66c7;
+}
+.block-bnt{
+    &--center{
+        width: 135px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 768px) {
+    .block-bnt{
+        min-width: 165px;
+        & button{
+            padding: 20px 10px;
+        }
+    }
+}
+@media (min-width: 1190px) {
+    .block-bnt{
+        min-width: 165px;
+        & button{
+            padding: 20px 10px;
+        }
+    }
+}

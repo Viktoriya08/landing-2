@@ -1,0 +1,20 @@
+.btn__choice{
+    width: 120px;
+    background-color: #C9CFDA;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.btn__choice.active{
+    background-color: #102E49;
+}
+.btn__choice:not(.active):hover{
+    background-color: #95a7c7;
+}

@@ -1,0 +1,33 @@
+.about{
+    padding: 45px 0;
+    background-color: #F6F9FF;
+    & .about-content__text{
+        margin-top: 25px;
+        margin-bottom: 30px;
+        font-size: 12px;
+        line-height: 19px;
+    }
+    & .about-content{
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 1190px) {
+    .about-box{
+        display: flex;
+    }
+    .about-content{
+        width: 82%;
+        padding-right: 40px;
+        padding-top: 130px;
+        margin-bottom: 0;
+    }
+    .about{
+        padding: 150px 0;
+        & .about-content__text{
+            margin-top: 25px;
+            margin-bottom: 35px;
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+}

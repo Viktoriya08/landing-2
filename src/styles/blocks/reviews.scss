@@ -1,0 +1,42 @@
+.reviews{
+    padding: 40px 0;
+}
+.reviews-box{
+    border: 1px solid #387EF9;/* #C8D0DA */
+    border-radius: 20px;
+    padding: 20px 15px;
+}
+.reviews-box__title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.reviews-box__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.reviews-box__author{
+    & p{
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    & span {
+        font-size: 14px;
+        line-height: 18px;
+        color: #909599;
+    }
+}
+.revievs-box__text{
+    margin-top: 20px;
+    & p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+.revievs-btns{
+    margin-top: 30px;
+}
